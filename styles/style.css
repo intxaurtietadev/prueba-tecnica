@@ -578,4 +578,7 @@ h2 {
   .how-img {
     max-width: 90%;
   }
+  .login-section{
+    margin-top: 4rem;
+  }
 }
