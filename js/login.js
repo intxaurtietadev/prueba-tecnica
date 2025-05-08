@@ -9,12 +9,12 @@ function verContrasenaCandado () {
     if (contrasenaInput.type === 'password') {
         contrasenaInput.type = 'text';
             if (verContrasenaInput) {
-                verContrasenaInput.textContent = "🔓";
+                verContrasenaInput.textContent = "👀";
             }
     } else {
         contrasenaInput.type = 'password';
         if (verContrasenaInput) {
-        verContrasenaInput.textContent = "🔒";
+        verContrasenaInput.textContent = "🙈";
     }
     }
 };
