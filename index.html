@@ -16,6 +16,7 @@
     <header class="header-container">
       <div class="header-content">
         <a href="index.html">Banco de Horas</a>
+        <meta name="description" content="Ofrece tu tiempo y habilidades para ayudar en tu comunidad y recibe a cambio el talento de otros. Intercambia horas, fortalece lazos y crezcamos juntos.">
         <nav class="nav">
           <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -209,11 +210,10 @@
               id="condiciones"
               name="condiciones"
               value="acepto"
-              required
             />
           </div>
           <div class="contact-form-container">
-            <button type="submit">Enviar mensaje</button>
+            <button type="submit" id="btn-contacto">Enviar mensaje</button>
           </div>
         </form>
       </section>
@@ -221,8 +221,11 @@
 
     <footer class="footer">
       <div class="footer-container">
-        <p>Banco de horas. 2025</p>
+        <p>Banco de horas.</p>
+        <div id="fecha-hora">Cargando fecha y hora actual</div>
       </div>
     </footer>
+    <script src="js/fecha.js"></script>
+    <script src="js/deshabilitar.js"></script>
   </body>
 </html>

@@ -401,6 +401,7 @@ h2 {
   color: var(--text-color-light);
   box-shadow: var(--shadow);
   height: 4rem;
+  gap: 1rem;
 }
 
 @media (max-width: 768px) {
