@@ -27,26 +27,28 @@
         <section class="login-section">
             <div>
                 <h2>Accede a tu cuenta.</h2>
-                    <form class="contact-form" action="" method="get">
+                    <form class="contact-form" id="formularioLogin" action="" method="get">
                         <div class="contact-form-container">
                             <label> Usuario
-                                <input name="usuario" type="text" maxlength="10" placeholder="Usuario" required/>
+                                <input name="usuario" id="usuarioNombre" maxlength="10" placeholder="Usuario" required/>
                             </label>
                         </div>
                         <div class="contact-form-container">
                             <label> Contraseña
                                 <div class="password">
-                                    <input name="clave" type="password" maxlength="10" placeholder="Contraseña" required/>
+                                    <input name="clave" id="usuarioContraseña" type="password" maxlength="10" placeholder="Contraseña" required/>
+                                    <button type="button" id="verClaveBtn" title="Mostrar/ocultar contraseña">🔒</button>
                                 </div>
                             </label>
                         </div>
                         <div class="contact-form-container">
-                            <label> <input type="checkbox" name="terminos" required>
+                            <label> <input type="checkbox" id="terminosCheck" name="terminos" required>
                                 Acepto los
                                 <a href="https://www.iubenda.com/es/help/37616-que-son-los-terminos-y-condiciones-y-para-que-sirven">términos y condiciones</a>
                             </label>
                         </div>
-                        <button type="submit">Entrar</button>
+                        <button type="submit" id="btnLogeo">Entrar</button>
+                        <div id="mensajeDiv"></div>
                     </form>
                 </div>
             </section>
