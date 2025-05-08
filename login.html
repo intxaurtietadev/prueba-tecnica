@@ -30,14 +30,14 @@
                     <form class="contact-form" id="formularioLogin" action="" method="get">
                         <div class="contact-form-container">
                             <label> Usuario
-                                <input name="usuario" id="usuarioNombre" maxlength="10" placeholder="Usuario" required/>
+                                <input type="text" name="usuario" id="usuarioNombre" maxlength="10" placeholder="Usuario" required/>
                             </label>
                         </div>
                         <div class="contact-form-container">
                             <label> Contraseña
                                 <div class="password">
-                                    <input name="clave" id="usuarioContraseña" type="password" maxlength="10" placeholder="Contraseña" required/>
-                                    <button type="button" id="verClaveBtn" title="Mostrar/ocultar contraseña">🔒</button>
+                                    <input name="clave" id="usuarioContrasena" type="password" maxlength="10" placeholder="Contraseña" required/>
+                                    <button type="button" id="verContrasenaBtn" title="Mostrar/ocultar contraseña">🔒</button>
                                 </div>
                             </label>
                         </div>
@@ -48,8 +48,8 @@
                             </label>
                         </div>
                         <button type="submit" id="btnLogeo">Entrar</button>
-                        <div id="mensajeDiv"></div>
                     </form>
+                    <div id="mensajeDiv"></div>
                 </div>
             </section>
     </main>
@@ -60,5 +60,6 @@
         </div>
       </footer>
       <script src="js/fecha.js"></script>
+      <script src="js/login.js"></script>
 </body>
 </html>
